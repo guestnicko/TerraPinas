@@ -5,10 +5,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="" element />
-          <Route path="" element />
-          <Route path="" element />
-          <Route path="" element />
+          <Route path="/" element />
+          <Route path="/login" element />
+          <Route path="/register" element />
+          <Route path="/" element />
           <Route path="" element />
         </Routes>
       </BrowserRouter>
